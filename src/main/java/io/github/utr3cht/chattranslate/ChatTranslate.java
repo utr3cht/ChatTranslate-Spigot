@@ -1,14 +1,14 @@
-package me.kiva.chattranslate;
+package io.github.utr3cht.chattranslate;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import me.kiva.chattranslate.commands.ChatCommand;
-import me.kiva.chattranslate.listeners.ChatListener;
-import me.kiva.chattranslate.translation.AzureTranslator;
-import me.kiva.chattranslate.translation.DeepLTranslator;
-import me.kiva.chattranslate.translation.DummyTranslator;
-import me.kiva.chattranslate.translation.HybridTranslator;
-import me.kiva.chattranslate.translation.TranslationService;
+import io.github.utr3cht.chattranslate.commands.ChatCommand;
+import io.github.utr3cht.chattranslate.listeners.ChatListener;
+import io.github.utr3cht.chattranslate.translation.AzureTranslator;
+import io.github.utr3cht.chattranslate.translation.DeepLTranslator;
+import io.github.utr3cht.chattranslate.translation.DummyTranslator;
+import io.github.utr3cht.chattranslate.translation.HybridTranslator;
+import io.github.utr3cht.chattranslate.translation.TranslationService;
 
 public class ChatTranslate extends JavaPlugin {
 

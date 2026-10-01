@@ -1,4 +1,4 @@
-package me.kiva.chattranslate.translation;
+package io.github.utr3cht.chattranslate.translation;
 
 import java.util.concurrent.CompletableFuture;
 

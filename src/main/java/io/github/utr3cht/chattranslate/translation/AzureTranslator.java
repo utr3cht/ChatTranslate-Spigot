@@ -1,4 +1,4 @@
-package me.kiva.chattranslate.translation;
+package io.github.utr3cht.chattranslate.translation;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;

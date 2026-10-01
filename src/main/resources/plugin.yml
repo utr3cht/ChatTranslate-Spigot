@@ -1,6 +1,6 @@
 name: ChatTranslate
 version: ${project.version}
-main: me.kiva.chattranslate.ChatTranslate
+main: io.github.utr3cht.chattranslate.ChatTranslate
 api-version: 1.14
 authors: [kiva]
 description: A chat translation plugin.

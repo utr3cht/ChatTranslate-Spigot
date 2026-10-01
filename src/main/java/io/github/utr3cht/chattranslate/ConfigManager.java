@@ -1,4 +1,4 @@
-package me.kiva.chattranslate;
+package io.github.utr3cht.chattranslate;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;

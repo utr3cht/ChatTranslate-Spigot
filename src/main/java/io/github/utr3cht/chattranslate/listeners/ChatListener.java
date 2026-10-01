@@ -1,4 +1,4 @@
-package me.kiva.chattranslate.listeners;
+package io.github.utr3cht.chattranslate.listeners;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -6,8 +6,8 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 
-import me.kiva.chattranslate.ChatTranslate;
-import me.kiva.chattranslate.PlayerDataManager;
+import io.github.utr3cht.chattranslate.ChatTranslate;
+import io.github.utr3cht.chattranslate.PlayerDataManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;

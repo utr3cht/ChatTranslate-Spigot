@@ -1,4 +1,4 @@
-package me.kiva.chattranslate.commands;
+package io.github.utr3cht.chattranslate.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -7,8 +7,8 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
 
-import me.kiva.chattranslate.ChatTranslate;
-import me.kiva.chattranslate.PlayerDataManager;
+import io.github.utr3cht.chattranslate.ChatTranslate;
+import io.github.utr3cht.chattranslate.PlayerDataManager;
 
 import java.util.ArrayList;
 import java.util.Arrays;
