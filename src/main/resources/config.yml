@@ -1,0 +1,23 @@
+# ChatTranslate Configuration
+
+# Translator Mode
+# Options: AUTO, DEEPL, AZURE, HYBRID
+# AUTO: Automatically uses the configured API key(s). 
+#       If both are provided, it acts like HYBRID (DeepL primary, Azure fallback).
+#       If neither is provided, translation is disabled without throwing errors.
+translator-mode: "AUTO"
+
+# DeepL API Key (https://www.deepl.com/pro-api)
+# Leave empty if you don't want to use DeepL.
+deepl-api-key: ""
+
+# Azure Translator API Key (https://azure.microsoft.com/en-us/services/cognitive-services/translator/)
+# Leave empty if you don't want to use Azure.
+azure-api-key: ""
+
+# Azure Region (e.g., global, eastus, japaneast)
+# Required only if using Azure.
+azure-region: "global"
+
+# Default Target Language (ISO 639-1 code, e.g., EN, JA)
+default-language: "EN"

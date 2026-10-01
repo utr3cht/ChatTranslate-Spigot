@@ -1,0 +1,12 @@
+name: ChatTranslate
+version: ${project.version}
+main: me.kiva.chattranslate.ChatTranslate
+api-version: 1.14
+authors: [kiva]
+description: A chat translation plugin.
+commands:
+  chat:
+    description: Manage chat translation settings
+    usage: /chat <lang|on|off> [args]
+
+
